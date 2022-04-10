@@ -21,7 +21,7 @@ function AllPosts() {
             .catch(error=> console.log(error))
          
     },[])
-    
+    console.log(allPostData)
 
   return (
     <div className=' bg-green-100 min-h-screen p-12'>
